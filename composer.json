@@ -1,0 +1,16 @@
+{
+    "name": "mohammad/mvc",
+
+    "autoload": {
+        "psr-4": {
+            "app\\" : "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohammad",
+            "email": "mohammad.rasoul.mohebi@gmail.com"
+        }
+    ],
+    "require": {}
+}
