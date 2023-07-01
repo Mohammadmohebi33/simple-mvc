@@ -24,5 +24,10 @@
         <label>Password</label>
         <input type="password" class="form-control" name="password">
     </div>
+
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" class="form-control" name="confirmPassword">
+    </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>

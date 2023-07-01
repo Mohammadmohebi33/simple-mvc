@@ -3,6 +3,7 @@
 namespace app\controller;
 
 use app\core\Request;
+use app\model\Post;
 use app\model\RegisterModel;
 
 class SiteController extends Controller
@@ -21,13 +22,15 @@ class SiteController extends Controller
             $registerModel = new RegisterModel();
             $registerModel->loadData($request->getBody());
 
-            echo "<pre>";
-            var_dump($registerModel);
-            echo "</pre>";
 
             if ($registerModel->validate() && $registerModel->register()){
                 return "success";
             }
+
+            echo "<pre>";
+            var_dump($registerModel->errors);
+            echo "</pre>";
+
             $this->render('register' , ['model' => $registerModel]);
         }
 
