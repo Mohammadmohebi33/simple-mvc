@@ -1,10 +1,12 @@
 <?php
 
+require_once '../vendor/autoload.php';
+
 
 use app\controller\ContactController;
 use app\controller\SiteController;
 
-require_once '../vendor/autoload.php';
+
 
 $app = new app\core\Application();
 

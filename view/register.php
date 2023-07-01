@@ -5,13 +5,13 @@
         <div class="col">
             <div class="form-group">
                 <label>First name</label>
-                <input type="text" class="form-control" name="firstname">
+                <input type="text" class="form-control" name="firstName">
             </div>
         </div>
         <div class="col">
             <div class="form-group">
                 <label>Last name</label>
-                <input type="text" class="form-control" name="lastname">
+                <input type="text" class="form-control" name="lastName">
             </div>
         </div>
     </div>
